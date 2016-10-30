@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical"
+              >
+    <!-- linerlayout is root/ android:orientation="vertical" 하위 버튼들을 세로로 정렬시켜준다.-->
+ 
+    <Button
+        android:id="@+id/My_Cube_Control_btn"
+        android:layout_width="191dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/mycubecontrol_click" />
+
+     <Button
+         android:id="@+id/Design_Sample_btn"
+         android:layout_width="192dp"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="20dp"
+         android:background="@drawable/designsample_click" />
+
+     <Button 
+        android:id="@+id/About_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/about_click"
+        />
+    <!-- 
+    <ImageButton
+        android:id="@+id/My_Cube_Control_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mycubecontrol_btn"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/none" />
+       
+    <ImageButton
+        android:id="@+id/Design_Sample_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/designsample_btn"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/none" />
+
+    <ImageButton
+        android:id="@+id/About_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/about_btn"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/none" />
+    -->
+    <!-- ImageButton은  ImageView를 상속받는다. Button은 TextView를 상속받는다. -->
+    
+</LinearLayout> <!--  android:orientation="vertical" -->

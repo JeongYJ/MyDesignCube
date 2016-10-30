@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+   <!--  
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/addmemo_btn_push"/>
+    <item
+        android:state_enabled="false"
+        android:drawable="@drawable/addmemo_btn_none"/>
+    <item 
+        android:drawable="@drawable/addmemo_btn_orig"/>
+    -->
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/layer4_push"/>
+    
+    <item
+        android:state_selected="true"
+        android:drawable="@drawable/layer4_push"/>
+    
+    <item 
+        android:state_focused="false"
+        android:drawable="@drawable/layer4_orig"/>
+    
+</selector>

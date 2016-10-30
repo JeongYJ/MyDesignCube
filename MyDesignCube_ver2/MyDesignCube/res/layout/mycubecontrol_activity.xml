@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"> >
+
+        <Button
+            android:id="@+id/Layer1"
+            android:layout_weight = "1"
+            android:layout_width = "wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layer1_click"/>
+        <Button
+            android:id="@+id/Layer2"
+            android:layout_weight = "1"
+            android:layout_width = "wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layer2_click"/>
+
+        <Button
+            android:id="@+id/Layer3"
+            android:layout_weight = "1"
+            android:layout_width = "wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layer3_click" />
+
+        <Button
+            android:id="@+id/Layer4"
+            android:layout_weight = "1"
+            android:layout_width = "wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layer4_click" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:requiresFadingEdge="horizontal" >
+    </android.support.v4.view.ViewPager>
+
+    <Button
+        android:id="@+id/ResetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/allledoff_click" />
+    
+</LinearLayout>
